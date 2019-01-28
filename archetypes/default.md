@@ -1,9 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-author: ""
-type: ""
+subtitle: "{{ replace .Name "-" " " | title }}"
+comments: true
+author: "Zhiwei Yin"
 date: {{ .Date }}
-subtitle: ""
-image: ""
-tags: []
+lastmod: {{ .Date }}
+tags: ["golang","kubernetes","docker","openstack","code"]
+categories: ["golang","kubernetes","docker"]
+draft: false
 ---

@@ -1,0 +1,6 @@
+{{ if or .Params.toc (and .Site.Params.toc (ne .Params.toc false)) }}
+<aside class="toc">
+  <h3 class="toc"></h2>{{ "Table of Contents" }}</h3>
+     {{.TableOfContents}}
+</aside>
+{{- end }}
